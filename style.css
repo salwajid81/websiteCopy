@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/80a8277e-14eb-4192-83f7-45c27cd0652b/US-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_99b9a7c9-7791-4a48-b335-09e8ee246500_small.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow:hidden;
+}
+nav img{
+    margin-left:50px
+}
+nav select{
+    margin-left:750px;
+}
+nav button{
+    margin-left:30px;
+}
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+}
+
+
+.sign-in-btn {
+    background: rgba(210,47,39);
+    color: white;
+    font-weight:bold;
+    border:none;
+    border-radius:5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover{
+    background:rgb(237, 53, 43)
+}
+.main-content {
+    text-align: center;
+    margin:auto;
+    margin-top:auto;
+    margin-bottom:300px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.email-form {   
+    display: inline-block;
+    justify-content: center;
+}
+
+.email-form input {
+    padding: 15px;
+    font-size: 1em;
+    color:rgb(200,200,200);
+    background-color: rgba(14, 14, 14, 0.676);
+    border: 0.5px solid grey;
+    border-radius:5px;
+    width: 300px;
+}
+
+#lang{
+    padding: 5px;
+    color:rgb(200,200,200);
+    background-color: rgba(14, 14, 14, 0.676);
+    border: 0.5px solid grey;
+    border-radius:5px;
+    width: 100px;
+}
+.get-started-btn {
+    background: rgba(210,47,39);
+    border: none;
+    color: white;
+    font-weight:bold;
+    border-radius:5px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.get-started-btn:hover{
+    background:rgb(237, 53, 43);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
